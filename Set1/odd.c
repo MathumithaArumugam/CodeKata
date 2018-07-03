@@ -7,9 +7,13 @@ int main()
   {
     printf("Even");
   }
-  else
+  else if
   {
     printf("Odd");
+  }
+  else
+  {
+    printf("Invalid");
   }
  return 0;
  }
