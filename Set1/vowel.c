@@ -4,13 +4,14 @@ int main()
 {
     char ch;
      
-    printf("Enter a character: ");
+    
+ 
     scanf("%c",&ch);
      
-    //condition to check character is alphabet or not
+    
     if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z'))
     {
-        //check for VOWEL or CONSONANT
+        
         switch(ch)
         {
             case 'A':
@@ -31,7 +32,7 @@ int main()
     }
     else
     {
-        printf("%c is not an alphabet.\n",ch);
+        printf("invalid\n",ch);
     }
  
     return 0;
