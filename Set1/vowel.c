@@ -4,14 +4,10 @@ int main()
 {
     char ch;
      
-    
- 
     scanf("%c",&ch);
-     
-    
+
     if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z'))
     {
-        
         switch(ch)
         {
             case 'A':
@@ -32,10 +28,8 @@ int main()
     }
     else
     {
-        printf("invalid\n",ch);
+        printf("%c invalid.\n",ch);
     }
  
     return 0;
 }
-
-
