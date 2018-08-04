@@ -20,15 +20,15 @@ int main()
             case 'i':
             case 'o':
             case 'u':
-                printf("%c is a VOWEL.\n",ch);
+                printf(" VOWEL.\n",ch);
                 break;
             default:
-                printf("%c is a CONSONANT.\n",ch);            
+                printf(" CONSONANT.\n",ch);            
         }
     }
     else
     {
-        printf("%c invalid.\n",ch);
+        printf("invalid.\n",ch);
     }
  
     return 0;
